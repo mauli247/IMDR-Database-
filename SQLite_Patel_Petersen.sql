@@ -1,0 +1,1 @@
+SELECT C.* FROM Coverage C JOIN HasCoverage HC ON C.CoverageID = HC.CoverageID JOIN Patient P ON HC.BeneID = P.BeneID WHERE P.BeneID = '0007F12A492FD25D';
